@@ -1,4 +1,4 @@
-module github.com/billgraziano/dpapi
+module github.com/jetrmm/go-dpapi
 
 go 1.16
 

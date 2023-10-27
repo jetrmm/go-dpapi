@@ -5,9 +5,8 @@ import (
 	"encoding/hex"
 	"flag"
 	"fmt"
+	"github.com/jetrmm/go-dpapi"
 	"log"
-
-	"github.com/billgraziano/dpapi"
 )
 
 // go run .\cmd\dpapi\main.go -hex 01020304 -string junk

@@ -5,15 +5,14 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"github.com/jetrmm/go-dpapi"
 	"io/ioutil"
 	"os"
 	"os/user"
 	"path/filepath"
 	"strings"
 
-	"github.com/billgraziano/dpapi"
 	"github.com/dustin/go-humanize"
-
 	"github.com/pkg/errors"
 )
 
