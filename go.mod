@@ -1,9 +1,5 @@
 module github.com/jetrmm/go-dpapi
 
-go 1.16
+go 1.25.0
 
-require (
-	github.com/dustin/go-humanize v1.0.1
-	github.com/pkg/errors v0.9.1
-	golang.org/x/sys v0.33.0
-)
+require golang.org/x/sys v0.47.0
